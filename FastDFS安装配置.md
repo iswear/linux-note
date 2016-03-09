@@ -1,5 +1,19 @@
 #FastDFS安装配置#
 ##安装##
+###autotool安装###
+			sudo yum install autoconf(因安装libevent时需要)
+###automake安装###
+			sudo yum install automake(因安装libevent时需要)
+###libtool安装###
+			sudo yum install libtool(因安装libevent时需要)
+###libevent安装(见文档)###
+			sudo ./autogen.sh
+			sudo ./configure
+			sudo make
+			sudo make install
+###libfastcommon(见文档)###
+			sudo ./make.sh
+			sudo ./make.sh install
 ###安装步骤(请预先安装libevent libfastcommon)测试配置###
 		./make.sh
 		./make.sh install   
