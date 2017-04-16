@@ -1,7 +1,7 @@
 # nginx相关 #
 ## centos(7.0) ##
 ### nginx安装 ###
-			1.wget http://nginx.org/packages/centos/7/norach RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm
+			1.wget http://nginx.org/packages/centos/7/norach/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm
 			2.sudo rpm -ivh nginx-release-centos-7-0.el7.ngx.noarch.rpm
 			3.sudo yum install nginx-y
 			4.systemctl start nginx
