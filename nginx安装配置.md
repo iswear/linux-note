@@ -12,9 +12,9 @@
 			1.sudo vim default.conf
 			2.基本配置如下
 			    upstream nodejsservers { 
-			        127.0.0.1:8081;
-			        127.0.0.1:8082;
-			        127.0.0.1:8083;
+			        server 127.0.0.1:8081;
+			        server 127.0.0.1:8082;
+			        server 127.0.0.1:8083;
 			    }
 			    server {
 			        location / {
